@@ -1,0 +1,54 @@
+[
+    {
+        "outputFile": "D:\\smile_detection\\libs\\opencv\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-pl\\values-pl.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 9,
+                    "endColumn": 24,
+                    "endOffset": 361
+                },
+                "from": {
+                    "file": "D:\\smile_detection\\libs\\opencv\\build\\intermediates\\bundles\\debug\\res\\values-pl\\values-pl.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 9,
+                        "endColumn": 24,
+                        "endOffset": 361
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\Maciek\\Desktop\\full\\AndroidStudioProjektDetekcjaUsmiechu\\libs\\opencv\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-pl\\values-pl.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 9,
+                    "endColumn": 24,
+                    "endOffset": 361
+                },
+                "from": {
+                    "file": "C:\\Users\\Maciek\\Desktop\\full\\AndroidStudioProjektDetekcjaUsmiechu\\libs\\opencv\\build\\intermediates\\bundles\\debug\\res\\values-pl\\values-pl.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 9,
+                        "endColumn": 24,
+                        "endOffset": 361
+                    }
+                }
+            }
+        ]
+    }
+]

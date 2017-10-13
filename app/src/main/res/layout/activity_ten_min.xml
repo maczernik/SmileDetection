@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/wpa"
+    android:layout_height="match_parent" >
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/tv_keepSmile"
+        android:id="@+id/tenMinTitleText"
+        android:layout_above="@+id/tenMinCountDown"
+        android:layout_toRightOf="@+id/tenMinimageView"
+        android:layout_toEndOf="@+id/tenMinimageView" />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/tenMinimageView"
+        android:layout_alignParentTop="true"
+        ></ImageView>
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/tenMinCountDown"
+        android:layout_alignBottom="@+id/tenMinimageView"
+        android:layout_toRightOf="@+id/tenMinimageView"
+        android:layout_toEndOf="@+id/tenMinimageView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_reset"
+        android:id="@+id/btn_tenMinRun"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tenMinimageView"
+        android:layout_above="@+id/tenMinTitleText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp">
+
+        <org.opencv.android.JavaCameraView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/tenMinVideo"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tenMinimageView" />
+    </FrameLayout>
+
+</RelativeLayout>

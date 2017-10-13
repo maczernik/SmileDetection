@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/settings"
+        android:icon="@drawable/icon"
+        android:title="@string/menu_language">
+        <menu>
+
+            <item android:id="@+id/rattio_eng"
+                android:title="@string/menu_setting_ang" />
+            <item android:id="@+id/rattio_pl"
+                android:title="@string/menu_setting_pl" />
+        </menu>
+    </item>
+    <item android:id="@+id/fdSetting"
+        android:icon="@drawable/icon"
+        android:title="@string/menu_fdsettings">
+        <menu>
+            <item android:id="@+id/sizeeSettings"
+                android:title="@string/menu_settings">
+
+            </item>
+            <item android:id="@+id/sizeSettings"
+                android:icon="@drawable/icon"
+                android:title="@string/menu_faceSize">
+                <menu>
+                        <group
+                        android:id="@+id/menu_sizeGroup"
+                        android:checkableBehavior="single">
+                        <item
+                            android:id="@+id/menu_size5"
+                            android:title="@string/menu_size5" />
+                        <item
+                            android:id="@+id/menu_size20"
+                            android:title="@string/menu_size20" />
+                        <item
+                            android:id="@+id/menu_size30"
+                            android:title="@string/menu_size30"
+                            android:checked="true"/>
+                        <item
+                            android:id="@+id/menu_size40"
+                            android:title="@string/menu_size40" />
+                        <item
+                            android:id="@+id/menu_size50"
+                            android:title="@string/menu_size50" />
+                         </group>
+                </menu>
+            </item>
+            <item android:id="@+id/scaleSettings"
+                android:icon="@drawable/icon"
+                android:title="@string/menu_faceScale">
+                <menu>
+                    <group
+                        android:id="@+id/menu_faceScaleGroup"
+                        android:checkableBehavior="single">
+
+                        <item
+                            android:id="@+id/scale_11"
+                            android:title="1.1"
+                            android:checked="true"/>
+                        <item
+                            android:id="@+id/scale_15"
+                            android:title="1.5" />
+                        <item
+                            android:id="@+id/scale_20"
+                            android:title="2.0" />
+                        <item
+                            android:id="@+id/scale_40"
+                            android:title="4.0" />
+                    </group>
+                </menu>
+            </item>
+            <item android:id="@+id/faceNeiSettings"
+                android:icon="@drawable/icon"
+                android:title="@string/faceNeiSettings">
+                <menu>
+                    <group
+                        android:id="@+id/menu_faceNeiGroup"
+                        android:checkableBehavior="single">
+                        <item
+                            android:id="@+id/face_nei0"
+                            android:title="0" />
+                        <item
+                            android:id="@+id/face_nei1"
+                            android:title="1" />
+                        <item
+                            android:id="@+id/face_nei2"
+                            android:title="2"
+                            android:checked="true"/>
+                        <item
+                            android:id="@+id/face_nei5"
+                            android:title="5" />
+                        <item
+                            android:id="@+id/face_nei10"
+                            android:title="10" />
+                    </group>
+                </menu>
+            </item>
+        </menu>
+    </item>
+
+    <item android:id="@+id/sdSetting"
+        android:icon="@drawable/icon"
+        android:title="@string/menu_sdsettings">
+        <menu>
+            <item android:id="@+id/sizeeSettingsSmile"
+                android:title="@string/menu_settings">
+
+            </item>
+            <item android:id="@+id/sizeSettingsSmile"
+                android:icon="@drawable/icon"
+                android:title="@string/menu_smileSize">
+                <menu>
+                    <group
+                        android:id="@+id/menu_sizeGroupSmiles"
+                        android:checkableBehavior="single">
+                        <item
+                            android:id="@+id/menu_sizeSmile5"
+                            android:title="@string/menu_size5" />
+                        <item
+                            android:id="@+id/menu_sizeSmile10"
+                            android:title="@string/menu_size10"
+                            android:checked="true"/>
+                        <item
+                            android:id="@+id/menu_sizeSmile20"
+                            android:title="@string/menu_size20" />
+                        <item
+                            android:id="@+id/menu_sizeSmile30"
+                            android:title="@string/menu_size30" />
+                        <item
+                            android:id="@+id/menu_sizeSmile40"
+                            android:title="@string/menu_size40" />
+                        <item
+                            android:id="@+id/menu_sizeSmile50"
+                            android:title="@string/menu_size50" />
+                    </group>
+                </menu>
+            </item>
+            <item android:id="@+id/scaleSettingsSmile"
+                android:icon="@drawable/icon"
+                android:title="@string/menu_faceScale">
+                <menu>
+                    <group
+                        android:id="@+id/menu_smileScaleGroup"
+                        android:checkableBehavior="single">
+                        <item
+                            android:id="@+id/scale_Smile11"
+                            android:title="1.1"
+                            android:checked="true"/>
+                        <item
+                            android:id="@+id/scale_Smile15"
+                            android:title="1.5" />
+                        <item
+                            android:id="@+id/scale_Smile20"
+                            android:title="2.0" />
+                        <item
+                            android:id="@+id/scale_Smile40"
+                            android:title="4.0" />
+                    </group>
+                </menu>
+            </item>
+            <item android:id="@+id/smileNeiSettings"
+                android:icon="@drawable/icon"
+                android:title="@string/faceNeiSettings">
+                <menu>
+                    <group
+                        android:id="@+id/menu_smileNeiGroup"
+                        android:checkableBehavior="single">
+                        <item
+                            android:id="@+id/face_neiSmile0"
+                            android:title="0"
+                            android:checked="true"/>
+                        <item
+                            android:id="@+id/face_neiSmile1"
+                            android:title="1" />
+                        <item
+                            android:id="@+id/face_neiSmile2"
+                            android:title="2" />
+                        <item
+                            android:id="@+id/face_neiSmile5"
+                            android:title="5" />
+                        <item
+                            android:id="@+id/face_neiSmile10"
+                            android:title="10" />
+                    </group>
+                </menu>
+            </item>
+        </menu>
+    </item>
+
+    <item android:id="@+id/aboutme"
+        android:icon="@drawable/icon"
+        android:title="@string/menu_aboutme"
+        />
+    <item android:id="@+id/help"
+        android:icon="@drawable/icon"
+        android:title="@string/menu_help"
+        />
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">Zaprojektowanie i implementacja programu wykrywającego uśmiech działającego na urządzeniach mobilnych z systemem Android</string>
+    <string name="app_name">Detekcja Usmiechu</string>
+    <string name="title_activity_main">Detekcja uśmiechu</string>
+    <string name="btn_runSmileDetect">Wykrywanie uśmiechu</string>
+    <string name="btn_runTimer">Budzik</string>
+    <string name="btn_runClose">Zamnij</string>
+    <string name="menu_help">Pomoc</string>
+    <string name="menu_setting_ang">Angielski</string>
+    <string name="menu_setting_pl">Polski</string>
+    <string name="menu_settings">Ustawienia</string>
+    <string name="menu_aboutme">O mnie</string>
+    <string name="title_activity_main2"> </string>
+    <string name="title_activity_timer">Budzik</string>
+    <string name="btn_happy">Szczęśliwe zdjęcie</string>
+    <string name="btn_timer_time">Budzik</string>
+    <string name="btn_timer_nap">Drzemka</string>
+    <string name="btn_timer_run">Uruchom budzik!</string>
+    <string name="btn_happyTime">Punkty za uśmiech</string>
+    <string name="pickPhoto">Złap zdjęcie!</string>
+    <string name="savePhoto">Zapisz uśmiechy</string>
+    <string name="getSmileFromPhoto">Pobierz uśmiechy</string>
+    <string name="menu_fdsettings">Ustawiania detekcji twarzy</string>
+    <string name="menu_sdsettings">Ustawiania detekcji uśmiechu</string>
+    <string name="menu_faceSize">Rozmiar twarzy</string>
+    <string name="menu_size10">10%</string>
+    <string name="menu_size20">20%</string>
+    <string name="menu_size30">30%</string>
+    <string name="menu_size40">40%</string>
+    <string name="menu_size50">50%</string>
+    <string name="menu_faceScale">Skala twarzy</string>
+    <string name="faceNeiSettings">Ilość sąsiadów</string>
+    <string name="btn_reset">Resetuj punkty</string>
+    <string name="tv_keepSmile">Uśmiechnij się</string>
+    <string name="menu_language">Język</string>
+    <string name="resoultTimer">Budzik zatrzymany</string>
+    <string name="menu_size5">5%</string>
+    <string name="run">Uruchom</string>
+    <string name="close">Zamknij</string>
+    <string name="helpInfo">Pełen opis funkcjonalnosci znajduje sie dokumencie projketowym</string>
+    <string name="menu_smileSize">Rozmiar uśmiechu</string>
+</resources>
